@@ -1,0 +1,45 @@
+.btn {
+  margin: 150px;
+  padding: 10px 15px;
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tooltip-div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 200px;
+  background: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgb(179, 179, 179);
+  z-index: 999;
+
+  top: 15px;
+}
+.arr {
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid rgb(179, 179, 179);
+  border-right: 1px solid rgb(179, 179, 179);
+  margin: 0 auto -6px auto;
+  background-color: white;
+  transform: rotate(45deg);
+}
+.block-tooltip-title {
+  width: 100%;
+}
+.tooltip-title {
+  display: flex;
+  background-color: rgb(241, 241, 241);
+  padding: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: 600;
+}
+.tooltip-text {
+  padding: 15px 8px;
+}
